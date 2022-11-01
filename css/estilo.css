@@ -1,0 +1,8 @@
+.carousel-item button{
+    background-color: yellow;
+}
+
+.carousel-item button:hover{
+    background-color: blue;
+    border-color: blue;
+}
