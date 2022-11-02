@@ -2,6 +2,11 @@
     background-color: yellow;
 }
 
+.carousel-item button a{
+    color: black;
+    text-decoration: none;
+}
+
 .carousel-item button:hover{
     background-color: blue;
     border-color: blue;
@@ -47,6 +52,11 @@
     padding: 10%;
 }
 
+.generarElectricidad button a{
+    color: black;
+    text-decoration: none;
+}
+
 .textoGenerarelectricidad{
     align-items: center;
     padding: 5%;
@@ -65,6 +75,11 @@
     border-color: rgb(231, 231, 109);
     color: black;
     font-weight: bold;
+}
+
+.calentamientoDeagua button a{
+    color: black;
+    text-decoration: none;
 }
 
 .calentamientoDeagua img{
@@ -92,6 +107,11 @@
     font-weight: bold;
 }
 
+.bombeoSolar button a{
+    color: black;
+    text-decoration: none;
+}
+
 .bombeoSolar img{
     align-items: center;
     padding: 10%;
@@ -100,7 +120,7 @@
 .textoBombeosolar{
     align-items: center;
     padding: 5%;
-    color: black;
+    color: white;
 }
 
 .bombeoSolar{
@@ -136,7 +156,6 @@ footer{
 
 .infoExtrafooter img{
     width:25px;
-    height:15px;
 }
 
 .emprendedurismo{
@@ -163,9 +182,29 @@ footer{
     padding: 10%;
 }
 
+.naturaleza button a{
+    color: black;
+    text-decoration: none;
+}
+
 .textoNaturaleza{
     align-items: center;
     padding: 5%;
+}
+
+.hablemos{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0%;
+    color:black;
+    font-weight: bold;
+}
+
+.hablemos:hover{
+    background-color: rgb(231, 231, 109);
+    border-color: rgb(231, 231, 109);
+    color: black;
+    font-weight: bold;
 }
 
 .seguridad img{
@@ -176,4 +215,69 @@ footer{
 .textoSeguridad{
     align-items: center;
     padding: 5%;
+}
+
+.logoProyectos{
+    width: 150px;
+}
+
+.redesSociales a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width:992px) {
+    .facebook{
+        margin-bottom:10%;
+    }
+    .instagram{
+        margin-bottom:10%;
+    }
+    .redesSociales img{
+        scale:0.8;
+    }
+}
+
+.form-label{
+    margin-left: 10%;
+    width: 50%;
+}
+
+.form-control{
+    margin-left: 10%;
+    width: 50%;
+}
+
+.form-select{
+    margin-left: 10%;
+    width: 50%;
+}
+
+.form-check{
+    margin-left: 10%;
+    width: 50%;
+}
+
+.tituloContacto{
+    margin-left: 10%;
+}
+
+.enviar{
+    margin-left: 10%;
+    margin-bottom:100px;
+}
+
+.botonEnviar{
+    color: #333;
+    background-color: #eee ;
+    border-color: #ddd;
+    border-radius: 0;
+}
+
+.botonEnviar:hover{
+    color: #333;
+    background-color: darkgrey ;
+    border-color: gray;
+    border-radius: 0;
 }
