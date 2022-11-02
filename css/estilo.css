@@ -6,3 +6,119 @@
     background-color: blue;
     border-color: blue;
 }
+
+.tic{
+    width: 50px;
+}
+
+.medalla{
+    width: 50px;
+}
+
+.rayito{
+    width: 50px;
+}
+
+.meInteresa{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0%;
+    color:black;
+    font-weight: bold;
+}
+
+.meInteresa:hover{
+    background-color: rgb(231, 231, 109);
+    border-color: rgb(231, 231, 109);
+    color: black;
+    font-weight: bold;
+}
+
+.itemsInicio li{
+    margin-bottom: 10px;
+}
+
+.generarElectricidad{
+    background-color: azure;
+}
+
+.generarElectricidad img{
+    align-items: center;
+    padding: 10%;
+}
+
+.textoGenerarelectricidad{
+    align-items: center;
+    padding: 5%;
+}
+
+.quieroVermasinfo{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0%;
+    color:black;
+    font-weight: bold;
+}
+
+.quieroVermasinfo:hover{
+    background-color: rgb(231, 231, 109);
+    border-color: rgb(231, 231, 109);
+    color: black;
+    font-weight: bold;
+}
+
+.calentamientoDeagua img{
+    align-items: center;
+    padding: 10%;
+}
+
+.textoCalentamientodeagua{
+    align-items: center;
+    padding: 5%;
+}
+
+.contactar{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0%;
+    color:black;
+    font-weight: bold;
+}
+
+.contactar:hover{
+    background-color: rgb(231, 231, 109);
+    border-color: rgb(231, 231, 109);
+    color: black;
+    font-weight: bold;
+}
+
+.bombeoSolar img{
+    align-items: center;
+    padding: 10%;
+}
+
+.textoBombeosolar{
+    align-items: center;
+    padding: 5%;
+    color: white;
+}
+
+.bombeoSolar{
+    background-color: black;
+}
+
+main{
+    margin-top: 60px;
+}
+
+@media (max-width:480px) {
+    .carousel-caption h4{
+        font-size: 50%;
+    }
+    .carousel-caption p{
+        font-size:50%;
+    }
+    .carousel-caption button{
+        scale: 0.5;
+    }
+}
